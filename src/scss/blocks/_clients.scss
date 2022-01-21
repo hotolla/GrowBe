@@ -1,0 +1,55 @@
+.clients {
+  padding: 93px 0 100px;
+  .descr {
+    max-width: 459px;
+    margin-top: 19px;
+    margin-bottom: 55px;
+  }
+}
+
+.clients__slider {
+  padding-bottom: 40px;
+}
+
+.clients__slide {
+  padding: 25px 30px;
+  text-align: center;
+  border: 2px solid #eeeeee;
+  transition: 0.3s;
+}
+
+.clients__slide-text {
+  font-family: "Gilroy-Medium";
+  color: #888888;
+  position: relative;
+
+  &::before {
+    content: "";
+    background: url(../icons/clients/quote.svg);
+    position: absolute;
+    width: 42px;
+    height: 30px;
+    top: -2px;
+    left: 50%;
+    transform: translateХ(-50%);
+    z-index: -1;
+  }
+}
+
+.clients__slide-img {
+  max-width: 50px;
+  max-height: 50px;
+  margin: 30px 0 10px;
+}
+
+.clients__slide-name {
+  font-family: "Gilroy-SemiBold";
+  font-size: 13px;
+  color: #000000;
+}
+
+.clients__slide-position {
+  font-family: "Gilroy-SemiBold";
+  font-size: 13px;
+  color: #888888;
+}

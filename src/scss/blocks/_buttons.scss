@@ -1,0 +1,69 @@
+.btn {
+  font-family: "Gilroy-Bold";
+  background: $orange;
+  border: none;
+  border-radius: 50px;
+  padding: 15px 32px;
+  color: #ffffff;
+  font-size: 13px;
+  &-small {
+    border-radius: 30px;
+  }
+
+  .btn-disable {
+    width: 54%;
+    padding: 10px;
+  }
+
+  &-more {
+    position: relative;
+    padding: 15px 35px 15px 46px;
+    &::before {
+      position: absolute;
+      content: "";
+      background: url(../icons/btn/arrowMore.svg) no-repeat;
+      width: 6px;
+      height: 9px;
+      top: 50%;
+      right: 23px;
+      transform: translateY(-50%);
+    }
+  }
+}
+
+.btn-video {
+  background: transparent;
+  border: none;
+  position: relative;
+  padding-left: 40px;
+
+  &::before {
+    content: "";
+    background: url(../icons/btn/icon.svg) no-repeat;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+  }
+}
+
+.btn-disable {
+  background: rgba(242, 88, 34, 0.25);
+  border-radius: 50px;
+  padding: 9px 64px;
+  color: #f3602d;
+}
+
+.btn.acc-btn {
+  font-family: Gilroy-Bold;
+  font-size: 11px;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  border: none;
+  background: none;
+  border-radius: 0;
+  padding: 0;
+}

@@ -1,0 +1,43 @@
+.seo {
+  padding-top: 110px;
+}
+
+.seo__img {
+  position: absolute;
+  left: -405px;
+  top: 0;
+  max-width: 945px;
+  width: 100%;
+  z-index: -1;
+}
+
+.seo__wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.seo__content {
+  max-width: 570px;
+  width: 100%;
+  .title {
+    text-align: left;
+  }
+  .descr {
+    margin: 20px 0 79px;
+    text-align: left;
+  }
+}
+
+.seo__item {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  padding: 24px 48px 26px 30px;
+  transition: 0.3s;
+  &:hover {
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+  }
+  .item-title {
+    font-size: 20px;
+  }
+}

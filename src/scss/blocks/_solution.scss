@@ -1,0 +1,23 @@
+.solution {
+  padding-top: 100px;
+  background: #fafafa url(../img/solution/element.svg) center center/cover
+    no-repeat;
+  .title {
+    text-align: left;
+  }
+  .descr {
+    text-align: left;
+    margin: 20px 0 35px;
+  }
+}
+
+.solution__wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.solution__img {
+  max-width: 800px;
+  width: 100%;
+}
