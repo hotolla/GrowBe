@@ -92,3 +92,18 @@ function accordion() {
 }
 
 accordion();
+
+function progressBar() {
+  let windowScroll = document.documentElement.scrollTop;
+  let height =
+    document.documentElement.scrollHeight -
+    document.documentElement.clientHeight;
+  let scrolled = (windowScroll / height) * 100;
+  console.log(scrolled);
+  let progressBar = document.querySelector(".progress-bar");
+  progressBar.style.height = `${scrolled}vh`;
+}
+
+window.addEventListener("scroll", function () {
+  progressBar();
+});

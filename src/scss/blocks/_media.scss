@@ -34,6 +34,9 @@
 }
 
 @media (max-width: 850px) {
+  .header {
+    padding: 25px 0;
+  }
   .promo__title {
     font-size: 50px;
   }
@@ -193,9 +196,17 @@
   .counter__item-text {
     font-size: 14px;
   }
+  .solution {
+    .title,
+    .descr {
+      text-align: center;
+    }
+    text-align: center;
+  }
   .solution__img {
     display: none;
   }
+
   .check__img {
     display: none;
   }
@@ -221,7 +232,7 @@
     padding: 70px 0;
   }
   .check__form .btn {
-    margin: 10px;
+    margin: 20px;
   }
   .check__form input {
     padding: 16px 10px 17px 10px;
@@ -275,5 +286,50 @@
       width: 10px;
       height: 10px;
     }
+  }
+}
+
+@media (max-width: 550px) {
+  .features,
+  .choose,
+  .counter,
+  .plans,
+  .team,
+  .clients,
+  .news,
+  .counter {
+    padding: 30px 0;
+  }
+  .footer {
+    padding: 30px 0 5px;
+  }
+  .counter__items {
+    padding: 10px 10px;
+  }
+  .promo {
+    padding: 100px 0;
+  }
+  .promo__title {
+    font-size: 42px;
+  }
+  .check__form {
+    text-align: right;
+  }
+  .footer__items {
+    gap: 8px;
+    font-size: 12px;
+  }
+  .counter__items {
+    padding: 7px 7px;
+  }
+  .counter__item {
+    font-size: 24px;
+    width: 25%;
+  }
+  .counter__item::before {
+    display: none;
+  }
+  .footer__title {
+    font-size: 18px;
   }
 }
